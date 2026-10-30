@@ -1,0 +1,762 @@
+{
+  "Actions": [
+    {
+      "Icon": "static/action-direct",
+      "Name": "Zaap",
+      "States": [
+        {
+          "Image": "static/zaaps/z01",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sélectionnez un Zaap dans la liste déroulante pour afficher son nom et ses coordonnées [X, Y]",
+      "UUID": "com.dofus.zaap.direct",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z01",
+      "Name": "Cité d'Astrub [5, -18]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z01",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Cité d'Astrub (Astrub) — Espace + /zaap 5,-18 + Entrée",
+      "UUID": "com.dofus.zaap.z01",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z02",
+      "Name": "Tainéla [1, -32]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z02",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Tainéla (Astrub) — Espace + /zaap 1,-32 + Entrée",
+      "UUID": "com.dofus.zaap.z02",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z03",
+      "Name": "Arche de Vili [15, -20]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z03",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Arche de Vili (Profondeurs d'Astrub) — Espace + /zaap 15,-20 + Entrée",
+      "UUID": "com.dofus.zaap.z03",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z04",
+      "Name": "Village d'Amakna [-2, 0]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z04",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village d'Amakna (Amakna) — Espace + /zaap -2,0 + Entrée",
+      "UUID": "com.dofus.zaap.z04",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z05",
+      "Name": "Château d'Amakna [3, -5]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z05",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Château d'Amakna (Amakna) — Espace + /zaap 3,-5 + Entrée",
+      "UUID": "com.dofus.zaap.z05",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z06",
+      "Name": "Coin des Bouftous [5, 7]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z06",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Coin des Bouftous (Amakna) — Espace + /zaap 5,7 + Entrée",
+      "UUID": "com.dofus.zaap.z06",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z07",
+      "Name": "Port de Madrestam [7, -4]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z07",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Port de Madrestam (Amakna) — Espace + /zaap 7,-4 + Entrée",
+      "UUID": "com.dofus.zaap.z07",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z08",
+      "Name": "Montagne des Craqueleurs [-5, -8]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z08",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Montagne des Craqueleurs (Amakna) — Espace + /zaap -5,-8 + Entrée",
+      "UUID": "com.dofus.zaap.z08",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z09",
+      "Name": "Bord de la forêt maléfique [-1, 13]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z09",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Bord de la forêt maléfique (Amakna) — Espace + /zaap -1,13 + Entrée",
+      "UUID": "com.dofus.zaap.z09",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z10",
+      "Name": "Plaine des Scarafeuilles [-1, 24]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z10",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Plaine des Scarafeuilles (Amakna) — Espace + /zaap -1,24 + Entrée",
+      "UUID": "com.dofus.zaap.z10",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z11",
+      "Name": "Bonta (Cœur immaculé) [-31, -56]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z11",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Bonta (Cœur immaculé) (Bonta) — Espace + /zaap -31,-56 + Entrée",
+      "UUID": "com.dofus.zaap.z11",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z12",
+      "Name": "Brâkmar (La Cuirasse) [-26, 37]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z12",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Brâkmar (La Cuirasse) (Brâkmar) — Espace + /zaap -26,37 + Entrée",
+      "UUID": "com.dofus.zaap.z12",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z13",
+      "Name": "Champs de Cania [-27, -36]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z13",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Champs de Cania (Plaines de Cania) — Espace + /zaap -27,-36 + Entrée",
+      "UUID": "com.dofus.zaap.z13",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z14",
+      "Name": "Lac de Cania [-3, -42]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z14",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Lac de Cania (Plaines de Cania) — Espace + /zaap -3,-42 + Entrée",
+      "UUID": "com.dofus.zaap.z14",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z15",
+      "Name": "Massif de Cania [-13, -28]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z15",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Massif de Cania (Plaines de Cania) — Espace + /zaap -13,-28 + Entrée",
+      "UUID": "com.dofus.zaap.z15",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z16",
+      "Name": "Plaine des Porkass [-5, -23]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z16",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Plaine des Porkass (Plaines de Cania) — Espace + /zaap -5,-23 + Entrée",
+      "UUID": "com.dofus.zaap.z16",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z17",
+      "Name": "Plaines Rocheuses [-17, -47]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z17",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Plaines Rocheuses (Plaines de Cania) — Espace + /zaap -17,-47 + Entrée",
+      "UUID": "com.dofus.zaap.z17",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z18",
+      "Name": "Routes Rocailleuses [-20, -20]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z18",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Routes Rocailleuses (Plaines de Cania) — Espace + /zaap -20,-20 + Entrée",
+      "UUID": "com.dofus.zaap.z18",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z19",
+      "Name": "Village des Dopeuls [-34, -8]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z19",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village des Dopeuls (Plaines de Cania) — Espace + /zaap -34,-8 + Entrée",
+      "UUID": "com.dofus.zaap.z19",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z20",
+      "Name": "Village des Kanigs [0, -56]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z20",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village des Kanigs (Plaines de Cania) — Espace + /zaap 0,-56 + Entrée",
+      "UUID": "com.dofus.zaap.z20",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z21",
+      "Name": "Foire du Trool [-11, -36]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z21",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Foire du Trool (Foire du Trool) — Espace + /zaap -11,-36 + Entrée",
+      "UUID": "com.dofus.zaap.z21",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z22",
+      "Name": "Route des Roulottes [-25, 12]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z22",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Route des Roulottes (Landes de Sidimote) — Espace + /zaap -25,12 + Entrée",
+      "UUID": "com.dofus.zaap.z22",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z23",
+      "Name": "Terres Désacrées [-15, 25]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z23",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Terres Désacrées (Landes de Sidimote) — Espace + /zaap -15,25 + Entrée",
+      "UUID": "com.dofus.zaap.z23",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z24",
+      "Name": "Village des Éleveurs [-16, 1]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z24",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village des Éleveurs (Montagne des Koalaks) — Espace + /zaap -16,1 + Entrée",
+      "UUID": "com.dofus.zaap.z24",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z25",
+      "Name": "Cimetière primitif [-12, 19]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z25",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Cimetière primitif (Montagne des Koalaks) — Espace + /zaap -12,19 + Entrée",
+      "UUID": "com.dofus.zaap.z25",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z26",
+      "Name": "Sufokia [13, 26]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z26",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Sufokia (Baie de Sufokia) — Espace + /zaap 13,26 + Entrée",
+      "UUID": "com.dofus.zaap.z26",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z27",
+      "Name": "Rivage sufokien [10, 22]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z27",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Rivage sufokien (Baie de Sufokia) — Espace + /zaap 10,22 + Entrée",
+      "UUID": "com.dofus.zaap.z27",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z28",
+      "Name": "Temple des alliances [13, 35]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z28",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Temple des alliances (Baie de Sufokia) — Espace + /zaap 13,35 + Entrée",
+      "UUID": "com.dofus.zaap.z28",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z29",
+      "Name": "La Bourgade [-78, -41]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z29",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "La Bourgade (Île de Frigost) — Espace + /zaap -78,-41 + Entrée",
+      "UUID": "com.dofus.zaap.z29",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z30",
+      "Name": "Village enseveli [-77, -73]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z30",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village enseveli (Île de Frigost) — Espace + /zaap -77,-73 + Entrée",
+      "UUID": "com.dofus.zaap.z30",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z31",
+      "Name": "Entrée château Harebourg [-67, -77]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z31",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Entrée château Harebourg (Île de Frigost) — Espace + /zaap -67,-77 + Entrée",
+      "UUID": "com.dofus.zaap.z31",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z32",
+      "Name": "Futaie enneigée [39, -82]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z32",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Futaie enneigée (Archipel de Valonia) — Espace + /zaap 39,-82 + Entrée",
+      "UUID": "com.dofus.zaap.z32",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z33",
+      "Name": "Village de Pandala [20, -29]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z33",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village de Pandala (Île de Pandala) — Espace + /zaap 20,-29 + Entrée",
+      "UUID": "com.dofus.zaap.z33",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z34",
+      "Name": "Mont des Tombeaux [40, -44]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z34",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Mont des Tombeaux (Île de Grobe) — Espace + /zaap 40,-44 + Entrée",
+      "UUID": "com.dofus.zaap.z34",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z35",
+      "Name": "Village côtier [-46, 18]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z35",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village côtier (Île d'Otomaï) — Espace + /zaap -46,18 + Entrée",
+      "UUID": "com.dofus.zaap.z35",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z36",
+      "Name": "Village de la Canopée [-54, 16]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z36",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Village de la Canopée (Île d'Otomaï) — Espace + /zaap -54,16 + Entrée",
+      "UUID": "com.dofus.zaap.z36",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z37",
+      "Name": "Île de la Cawotte [25, -4]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z37",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Île de la Cawotte (Île des Wabbits) — Espace + /zaap 25,-4 + Entrée",
+      "UUID": "com.dofus.zaap.z37",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z38",
+      "Name": "Laboratoires abandonnés [27, -14]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z38",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Laboratoires abandonnés (Île des Wabbits) — Espace + /zaap 27,-14 + Entrée",
+      "UUID": "com.dofus.zaap.z38",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z39",
+      "Name": "Plage de la Tortue [35, 12]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z39",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Plage de la Tortue (Île de Moon) — Espace + /zaap 35,12 + Entrée",
+      "UUID": "com.dofus.zaap.z39",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z40",
+      "Name": "Dunes des ossements [15, -58]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z40",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Dunes des ossements (Saharach) — Espace + /zaap 15,-58 + Entrée",
+      "UUID": "com.dofus.zaap.z40",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z41",
+      "Name": "Crocuzko [-83, -15]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z41",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Crocuzko (Archipel des Écailles) — Espace + /zaap -83,-15 + Entrée",
+      "UUID": "com.dofus.zaap.z41",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z42",
+      "Name": "Nimotopia [-67, 29]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z42",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Nimotopia (Nimotopia) — Espace + /zaap -67,29 + Entrée",
+      "UUID": "com.dofus.zaap.z42",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z43",
+      "Name": "Route des âmes [-1, -3]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z43",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Route des âmes (Incarnam) — Espace + /zaap -1,-3 + Entrée",
+      "UUID": "com.dofus.zaap.z43",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z44",
+      "Name": "Pâturages [2, -5]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z44",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Pâturages (Incarnam) — Espace + /zaap 2,-5 + Entrée",
+      "UUID": "com.dofus.zaap.z44",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    },
+    {
+      "Icon": "static/zaaps/z45",
+      "Name": "Cimetière [3, 0]",
+      "VisibleInActionsList": false,
+      "States": [
+        {
+          "Image": "static/zaaps/z45",
+          "TitleAlignment": "middle",
+          "FontSize": "9"
+        }
+      ],
+      "SupportedInMultiActions": true,
+      "Tooltip": "Cimetière (Incarnam) — Espace + /zaap 3,0 + Entrée",
+      "UUID": "com.dofus.zaap.z45",
+      "PropertyInspectorPath": "propertyInspector/index.html"
+    }
+  ],
+  "Author": "Thyrawen",
+  "Category": "Dofus Zaap",
+  "CategoryIcon": "static/category-icon",
+  "CodePath": "plugin/index.js",
+  "Description": "Tous les 45 Zaaps de Dofus 3 regroupés dans un bouton avec liste déroulante (Nom, Région et Coordonnées /zaap x,y).",
+  "Icon": "static/plugin-icon",
+  "Name": "Dofus Zaap (/zaap)",
+  "Nodejs": {
+    "Version": "20",
+    "Debug": "enabled"
+  },
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ],
+  "SDKVersion": 2,
+  "Software": {
+    "MinimumVersion": "2.9"
+  },
+  "UUID": "com.dofus.zaap",
+  "Version": "1.3.0"
+}
