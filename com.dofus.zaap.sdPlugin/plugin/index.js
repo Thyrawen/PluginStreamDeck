@@ -89,12 +89,11 @@ class HelperBridge {
     return null;
   }
 
-  async executeCommand({ text, mode = "autotype_space", multiMode = "active", focusDofus = true, delayMs = 60 }) {
+  async executeCommand({ text, mode = "autotype_space", focusDofus = true, delayMs = 60 }) {
     return this.call({
       cmd: "execute",
       text,
       mode,
-      multiMode: multiMode || "active",
       focusDofus: Boolean(focusDofus),
       delayMs: Number(delayMs) || 60
     });
@@ -116,7 +115,6 @@ function resolveZaapInfo(settings = {}, action = "") {
   return {
     zaap,
     execMode: settings.execMode || "autotype_space",
-    multiMode: settings.multiMode || "active",
     focusDofus: settings.focusDofus !== false
   };
 }
@@ -186,13 +184,12 @@ async function handleKeyDown(context) {
   const entry = contexts.get(context);
   if (!entry) return;
 
-  const { zaap, execMode, multiMode, focusDofus } = resolveZaapInfo(entry.settings, entry.action);
+  const { zaap, execMode, focusDofus } = resolveZaapInfo(entry.settings, entry.action);
   const statusBadge = execMode === "clipboard" ? "COPIÉ !" : "ZAAP !";
 
   await helper.executeCommand({
     text: zaap.command,
     mode: execMode,
-    multiMode,
     focusDofus
   });
 
@@ -230,10 +227,6 @@ ws.on("message", async (raw) => {
     }
     if (!settings.execMode) {
       settings.execMode = "autotype_space";
-      needsSave = true;
-    }
-    if (!settings.multiMode) {
-      settings.multiMode = "active";
       needsSave = true;
     }
     if (typeof settings.focusDofus !== "boolean") {
@@ -285,7 +278,6 @@ ws.on("message", async (raw) => {
       await helper.executeCommand({
         text: info.zaap.command,
         mode: info.execMode,
-        multiMode: info.multiMode,
         focusDofus: info.focusDofus
       });
     }

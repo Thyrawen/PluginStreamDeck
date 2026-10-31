@@ -103,11 +103,10 @@ namespace DofusZaapHelper
                     {
                         string text = GetStr(req, "text", "/zaap 5,-18");
                         string mode = GetStr(req, "mode", "autotype_space");
-                        string multiMode = GetStr(req, "multiMode", "active");
                         bool focusDofus = GetBool(req, "focusDofus", true);
                         int delayMs = GetInt(req, "delayMs", 60);
 
-                        bool ok = ExecuteCommand(text, mode, multiMode, focusDofus, delayMs);
+                        bool ok = ExecuteCommand(text, mode, focusDofus, delayMs);
                         WriteJson(serializer, new Dictionary<string, object> {
                             { "id", id },
                             { "ok", ok }
@@ -156,7 +155,7 @@ namespace DofusZaapHelper
             return def;
         }
 
-        private static bool ExecuteCommand(string text, string mode, string multiMode, bool focusDofus, int delayMs)
+        private static bool ExecuteCommand(string text, string mode, bool focusDofus, int delayMs)
         {
             try
             {
@@ -166,56 +165,19 @@ namespace DofusZaapHelper
                     List<IntPtr> dofusWindows = GetAllDofusWindows();
                     IntPtr fg = GetForegroundWindow();
 
-                    if (multiMode == "all" && dofusWindows.Count > 1)
+                    if (focusDofus && dofusWindows.Count > 0)
                     {
-                        IntPtr initialWindow = dofusWindows.Contains(fg) ? fg : dofusWindows[0];
-                        foreach (IntPtr hwnd in dofusWindows)
+                        if (!dofusWindows.Contains(fg))
                         {
-                            FocusWindowHandle(hwnd);
-                            Thread.Sleep(130);
-                            SendChatCommandKeystrokes(mode, delayMs);
-                            Thread.Sleep(110);
-                        }
-                        FocusWindowHandle(initialWindow);
-                    }
-                    else if (multiMode == "cycle" && dofusWindows.Count > 1)
-                    {
-                        int currentIdx = dofusWindows.IndexOf(fg);
-                        if (currentIdx < 0) currentIdx = 0;
-
-                        IntPtr currentHwnd = dofusWindows[currentIdx];
-                        if (fg != currentHwnd)
-                        {
-                            FocusWindowHandle(currentHwnd);
+                            FocusWindowHandle(dofusWindows[0]);
                             Thread.Sleep(120);
                         }
                         else
                         {
                             Thread.Sleep(30);
                         }
-
-                        SendChatCommandKeystrokes(mode, delayMs);
-                        Thread.Sleep(90);
-
-                        int nextIdx = (currentIdx + 1) % dofusWindows.Count;
-                        FocusWindowHandle(dofusWindows[nextIdx]);
                     }
-                    else
-                    {
-                        if (focusDofus && dofusWindows.Count > 0)
-                        {
-                            if (!dofusWindows.Contains(fg))
-                            {
-                                FocusWindowHandle(dofusWindows[0]);
-                                Thread.Sleep(120);
-                            }
-                            else
-                            {
-                                Thread.Sleep(30);
-                            }
-                        }
-                        SendChatCommandKeystrokes(mode, delayMs);
-                    }
+                    SendChatCommandKeystrokes(mode, delayMs);
                 }
                 return true;
             }

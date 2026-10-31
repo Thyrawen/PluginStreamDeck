@@ -136,15 +136,6 @@
       </select>
     </div>
 
-    <div class="field">
-      <label for="multiMode">Gestion Multicompte (4 à 8 comptes Dofus)</label>
-      <select id="multiMode">
-        <option value="active">Fenêtre Dofus active uniquement (Par défaut)</option>
-        <option value="cycle">Rotation : 1 clic = téléporte + passe au compte suivant</option>
-        <option value="all">Tous les comptes : 1 clic = téléporte tous les Dofus ouverts</option>
-      </select>
-    </div>
-
     <label class="checkbox-row">
       <input type="checkbox" id="focusDofus" checked />
       <span>Mettre la fenêtre Dofus au premier plan avant l'envoi</span>
@@ -206,14 +197,12 @@
     let settings = {
       zaapId: "z01",
       execMode: "autotype_space",
-      multiMode: "active",
       focusDofus: true
     };
 
     const elZaap = document.getElementById("zaapSelect");
     const elPreview = document.getElementById("cmdPreviewText");
     const elExecMode = document.getElementById("execMode");
-    const elMultiMode = document.getElementById("multiMode");
     const elFocusDofus = document.getElementById("focusDofus");
 
     function populateZaapDropdown() {
@@ -257,7 +246,6 @@
       elZaap.value = settings.zaapId || "z01";
       const modeVal = (settings.execMode === "autotype" || !settings.execMode) ? "autotype_space" : settings.execMode;
       elExecMode.value = modeVal;
-      elMultiMode.value = settings.multiMode || "active";
       elFocusDofus.checked = settings.focusDofus !== false;
       updatePreview();
     }
@@ -266,7 +254,6 @@
       settings = {
         zaapId: elZaap.value || settings.zaapId || "z01",
         execMode: elExecMode.value,
-        multiMode: elMultiMode.value,
         focusDofus: elFocusDofus.checked
       };
       updatePreview();
@@ -286,7 +273,7 @@
       }
     }
 
-    [elZaap, elExecMode, elMultiMode, elFocusDofus].forEach(el => {
+    [elZaap, elExecMode, elFocusDofus].forEach(el => {
       el.addEventListener("change", saveSettings);
     });
 

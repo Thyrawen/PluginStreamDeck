@@ -21,10 +21,8 @@ Compatible avec :
    - **Par défaut** : `Espace + /zaap x,y + Entrée` (avec ScanCodes matériels pour ouvrir automatiquement le chat Dofus 3, coller la commande `/zaap x,y` et valider).
    - **Alternatives** : `Entrée + /zaap x,y + Entrée` ou copie simple dans le presse-papier.
 
-3. **Gestion Multicompte**
-   - **Fenêtre Dofus active uniquement (Par défaut)** : envoie la commande sur la fenêtre `Dofus.exe` actuellement au premier plan.
-   - **Rotation compte par compte** : téléporte le compte actif puis bascule automatiquement sur la fenêtre du compte Dofus suivant.
-   - **Tous les comptes** : parcourt les fenêtres `Dofus.exe` ouvertes.
+3. **Ciblage Monocompte (Fenêtre active uniquement)**
+   - Envoie la commande uniquement sur la fenêtre `Dofus.exe` actuellement utilisée (ou copie simple dans le presse-papier), sans enchaînement automatisé multicompte.
 
 ---
 
